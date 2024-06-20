@@ -13,7 +13,7 @@ import {ProductsProvider, ProductsContext} from './context/ContextState'
 
 function App() {
   
-
+const a = 10;
   return (
     <ProductsProvider>
       <BrowserRouter>
