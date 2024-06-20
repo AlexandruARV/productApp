@@ -1,0 +1,53 @@
+.main {
+   margin-top: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.6rem; 
+    width: 100%;
+    justify-items: center;
+ 
+  }
+  
+  .frame {
+    font-size: 1.8rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .frame li:first-child {
+    width: 30rem;
+    height: 30rem; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-size: cover; 
+    background-position: center; 
+   background-repeat: no-repeat; 
+   
+  }
+
+  .frame li:last-child{
+   
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .description{
+    width: 30rem;
+    margin-bottom: auto;
+  }
+  
+  .title{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: rgb(61, 183, 45);
+  }
+
+  .productImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  
